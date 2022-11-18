@@ -1,0 +1,17 @@
+.button-action-orders {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.action-order-icon {
+    font-size: 20px;
+    position: relative;
+    border: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+}
+
+.productorderrow {
+    height: 50px !important;
+}

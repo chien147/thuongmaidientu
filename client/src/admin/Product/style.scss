@@ -1,0 +1,188 @@
+.addproduct-wrapper.active {
+  display: block;
+}
+.act_body {
+  overflow: hidden;
+}
+.overlay {
+  position: fixed;
+  z-index: 10;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  right: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.222);
+
+  overflow: hidden;
+}
+.edit-content {
+  position: absolute;
+  z-index: 111;
+  //   width: 500px;
+  background-color: #fff;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.wrap-image {
+  display: flex;
+}
+.form-group-edit-image {
+  width: 300px;
+}
+
+.edit-tittle {
+  margin-bottom: 20px;
+}
+.product-input-ad {
+  width: 100%;
+  border: none;
+  outline: none;
+  height: 40px;
+  padding: 0px 10px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+
+.form-group-edit {
+  margin-bottom: 15px;
+}
+
+.form-button-edit {
+  display: flex;
+  margin-top: 10px;
+  justify-content: flex-end;
+  gap: 10px;
+  button {
+    width: 100px;
+  }
+}
+
+.product-input-img {
+  width: 130px;
+  height: 130px;
+}
+.product-sizes {
+  display: flex;
+  gap: 10px;
+}
+.product-size {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #333;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.product-sizes.act_size .product-size {
+  border-color: red;
+}
+.AddProductContainer,
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 100;
+  //   overflow: hidden;
+}
+
+.container-edit-product {
+  position: absolute;
+  z-index: 100;
+  background: white;
+  padding: 20px;
+  width: 60%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.form-edit {
+  width: 100%;
+}
+
+.form-edit input {
+  width: 100%;
+}
+
+.form-edit-v1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+.form-left,
+.form-right {
+  width: 50%;
+}
+.edit-image {
+  width: 350px;
+  height: 100%;
+  overflow: hidden;
+}
+.edit-image img {
+  width: 100%;
+}
+
+.edit-content {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.form-group-edit label {
+  font-size: 14px;
+}
+
+.form__update-container {
+  position: absolute;
+  z-index: 100;
+  top: 50%;
+  left: 50%;
+  background: #fff;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 70%;
+  overflow: scroll;
+  display: flex;
+  justify-content: center;
+}
+
+.form__update-image {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form__update-image img {
+  display: block;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.form__update-form {
+  display: flex;
+  width: 65%;
+  gap: 10px;
+}
+.form-left,
+.form-right {
+  margin-top: 70px;
+}

@@ -1,0 +1,41 @@
+.css-md26zr-MuiInputBase-root-MuiOutlinedInput-root {
+    margin-bottom: 10px;
+}
+
+.payment-title {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.css-mhc70k-MuiGrid-root {
+    justify-content: center;
+}
+.payment-product-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.payment-product-name {
+    width: 35%;
+}
+.payment-product-image {
+    width: 50px;
+    height: 50px;
+}
+img {
+    max-width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.payment-product-total {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #eeee;
+    padding: 10px 0;
+    margin-top: 10px;
+}

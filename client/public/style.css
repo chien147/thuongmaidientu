@@ -1,0 +1,12 @@
+.rss {
+    /* position: relative; */
+    top: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+}
+
+#fb-root {
+    color: red;
+}
